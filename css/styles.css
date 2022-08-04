@@ -1,0 +1,19 @@
+.position, .content_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  position: relative;
+  background-color: rgb(37, 34, 34);
+  font-family: "Oswald", sans-serif;
+  height: 100vh;
+}
+
+.content_cards .card {
+  margin: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

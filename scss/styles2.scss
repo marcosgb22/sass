@@ -1,0 +1,33 @@
+$primary_color: rgb(37, 34, 34);
+$margin: 15px;
+$font:'Oswald', sans-serif;
+.position {
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;      
+}
+body {   
+    position: relative;
+    background-color: $primary_color;
+    font-family: $font;
+    height: 100vh ;
+}
+
+.content_cards{
+    @extend .position;
+ .card {
+        margin:$margin;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
